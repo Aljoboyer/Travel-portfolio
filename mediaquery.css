@@ -1,0 +1,67 @@
+/* ------------for mobile devices-------- */
+
+@media only screen and (max-width:688px){
+
+    html{
+        font-size: 30%;
+    }
+    .welcome-sec{
+        width: 100%;
+        height: 100.0rem;
+        flex-direction: column;
+    }
+   nav ul{
+       width: 50.5rem;
+      /* justify-content: center; */
+      font-size: 10px;
+   }
+   .navbar{
+    display: flex;
+    justify-content: center;
+    }
+    .sidebar{
+       width: 50.0rem;
+    }
+    .gridsec {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .comming-soon, .packages, .contain{
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-row-gap: 2.0rem;
+        /* justify-content: center; */
+    }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width:668px) and (max-width:968px){
+    html{
+        font-size: 30%;
+    }
+    .welcome-sec{
+        width: 100%;
+        height: 100.0rem;
+        flex-direction: column;
+    }
+   nav ul{
+       width: 50.5rem;
+      /* justify-content: center; */
+      font-size: 10px;
+   }
+   .navbar{
+    display: flex;
+    justify-content: center;
+    }
+   
+    .sidebar{
+       width: 70.0rem;
+    }
+    .gridsec {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .comming-soon, .packages, .contain{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2.0rem;
+        /* justify-content: center; */
+    }
+}
